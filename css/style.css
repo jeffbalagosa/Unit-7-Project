@@ -4,8 +4,7 @@
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   color: white;
   background-color: cornflowerblue;
 }
