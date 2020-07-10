@@ -1,5 +1,6 @@
 .grid-container {
   display: grid;
+  grid-template-rows: 100px;
 }
 
 header {
@@ -28,8 +29,10 @@ header {
 }
 
 nav {
+  grid-area: nav;
   background-color: #072661;
 }
 
 main {
+  grid-area: main;
 }
