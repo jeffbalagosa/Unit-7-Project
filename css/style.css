@@ -1,6 +1,24 @@
+nav {
+  grid-area: nav;
+  background-color: #072661;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
 .grid-container {
   display: grid;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 100px;
+  grid-template-areas:
+    'header' 'header'
+    'nav' 'main'
+    'nav' 'main';
 }
 
 header {
@@ -28,11 +46,8 @@ header {
   height: 50px;
 }
 
-nav {
-  grid-area: nav;
-  background-color: #072661;
+@media (min-width: 768px) {
 }
 
-main {
-  grid-area: main;
+@media (min-width: 1024px) {
 }
