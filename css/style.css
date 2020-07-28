@@ -5,10 +5,12 @@ nav {
 
 main {
   grid-area: main;
+  background-color: chartreuse;
 }
 
 footer {
   grid-area: footer;
+  background-color: crimson;
 }
 
 .grid-container {
