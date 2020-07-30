@@ -18,9 +18,9 @@ footer {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 100px;
   grid-template-areas:
-    'header' 'header'
-    'nav' 'main'
-    'nav' 'main';
+    'header' 'header' 'header'
+    'nav' 'main' 'main'
+    'nav' 'main' 'main';
 }
 
 header {
